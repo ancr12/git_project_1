@@ -16,11 +16,11 @@ def calculator() :
     if op in operation :
         try :
             result = operation[op](a,b)
-            print("결과", result)
+            print("result", result)
         except Exception as e :
             print("오류", e)
     else :
-        print("올바르지 않은 연산자 입니다.")
+        print("Invalid operator")
 
 if __name__ == "__main__" :
     calculator()
